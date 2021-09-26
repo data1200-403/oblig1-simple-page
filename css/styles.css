@@ -1,10 +1,14 @@
+:root {
+    --blue: #000033;
+}
+
 html, body {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: #000033;
+    background-color: var(--blue);
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
@@ -18,6 +22,37 @@ h1, h2, h3 {
 nav {
     background-color: #FFFFFF;
     color: #000000;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.nav-title {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 1rem 0 0 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    outline: 2px solid var(--blue);
 }
 
 .container {
