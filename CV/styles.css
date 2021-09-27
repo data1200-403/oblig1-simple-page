@@ -43,6 +43,8 @@ ul{
 h1,h2,h3,h4,h5 {
     text-align: center;
     font-family: 'Monserrat Semi-bold 600 ', sans-serif;
+    padding: 2%;
+    margin: 3%;
 }
 
 h1{
