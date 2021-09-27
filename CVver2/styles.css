@@ -21,25 +21,25 @@ body{
 .progress__fill1{
     width: 90%;
     height: 100%;
-    background: #ead117;
+    background: #e6aa12;
 }
 
 .progress__fill2{
     width: 80%;
     height: 100%;
-    background: #ead117;
+    background: #e6aa12;
 }
 
 .progress__fill3{
     width: 50%;
     height: 100%;
-    background: #ead117;
+    background: #e6aa12;
 }
 
 .progress__fill4{
     width: 10%;
     height: 100%;
-    background: #ead117;
+    background: #e6aa12;
 }
 
 .progress__text{
