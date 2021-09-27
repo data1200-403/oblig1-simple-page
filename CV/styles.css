@@ -16,19 +16,21 @@ ul{
     color: #000033;
 }
 .side{
-    padding: 2%;
+    height: 50%;
+    width: 50%;
 }
 
 #sidebar {
     width: 30%;
     margin: 0;
-    padding: 0%;
+    padding: 2%;
     background-color: #000033;
     color: #e4e4e4;
     position: sticky;
     top: 0;
     left: 0;
     overflow-x: visible;
+    box-sizing: border-box
 }
 
 #main {
