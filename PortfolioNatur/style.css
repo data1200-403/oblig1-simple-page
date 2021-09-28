@@ -16,9 +16,9 @@ h1, h2, h3, h4{
 .gallery{
     margin: 5px;
     border: 1px solid #777;
-    float: left; 
-    width: 10%;
-    height: 10%;
+    float: auto; 
+    width: 30%;
+    height: 30%;
 }
 
 img {
