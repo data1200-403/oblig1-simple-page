@@ -1,3 +1,8 @@
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+}
+
 body{
     background-color: #e4e4e4;
     font-family: 'Montserrat';
@@ -133,10 +138,6 @@ ul{
         font-size: 6rem;
 
     }
-    .main >p{
-        font-size:18px;
-    }
-
 
 a:link{
     color: #e4e4e4;
@@ -149,4 +150,72 @@ a:hover{
 }
 a:active{
     color:pink;
+}
+
+@media screen and (max-width:960px){
+    .sidebar{
+        color:#e4e4e4;
+        background-color: #000033;
+        margin-left:0px;
+        padding-left:0px;
+        max-width: 100%;
+    }
+    .main{
+        margin-left:0;
+        padding-left:0px;
+        background-color: #e4e4e4;
+        position: initial;
+        top: 0;
+        color:#000033;
+        width: auto;
+        overflow: auto;
+    }
+
+    @media screen and (max-width:320px){
+        .sidebar{
+            color:#e4e4e4;
+            background-color: #000033;
+            margin-left:0px;
+            padding-left:0px;
+            max-width: 100%;
+        }
+        .main{
+            margin-left:0;
+            padding-left:0px;
+            background-color: #e4e4e4;
+            position: initial;
+            top: 0;
+            color:#000033;
+            width: auto;
+            overflow: auto;
+        }
+
+        .sidebar > h1{
+            font-size: 2rem;
+            margin-top: 0;
+            padding-top: 0;
+        }
+        .sidebar > h2{
+            font-size: 1.4rem;
+            padding: 0px;
+        }
+    
+        .sidebar > h3{
+            font-size: 1.2rem;
+        }
+        .sidebar > p{
+            padding: 0px;
+        }
+    
+        .sidebar > ul{
+            list-style-type: none;
+            text-align: left;
+            padding: 0;
+            margin: 10px;
+        }
+        
+        .main > h1{
+            font-size: 3rem;
+        }
+    }
 }
