@@ -11,14 +11,14 @@ body{
  
 }
 h1, h2, h3, h4{
-    font-family: 'monsterrat';
+    font-family: 'monsterrat', sans-serif;
 }
 .gallery{
     margin: 5px;
     border: 1px solid #777;
     float: auto; 
-    width: 30%;
-    height: 30%;
+    width: 40%;
+    height: 40%;
 }
 
 img {
