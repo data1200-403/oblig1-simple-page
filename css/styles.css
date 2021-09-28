@@ -72,17 +72,24 @@ nav {
     border-bottom:  2px solid var(--blue);
 }
 
-main.blue {
-    background-color: var(--blue);
-    color: var(--white);
+section {
     padding: 20px 0;
     height: calc(100vh - 100px);
+}
+
+section.blue {
+    background-color: var(--blue);
+    color: var(--white);
 }
 
 .home-container {
     max-width: 980px;
     margin: 0 auto;
+
+}.home-container > p {
+    padding: 15px;
 }
+
 
 .home-quote {
     text-align: center;
@@ -93,6 +100,9 @@ main.blue {
 
 img.float-right {
     float: right;
+}
+img.float-left {
+    float: left;
 }
 
 .home-image {
