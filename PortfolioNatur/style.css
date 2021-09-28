@@ -1,13 +1,26 @@
 
 
+
 body{
  font-family: 'monsterrat';
+ background-color:#000033;
 }
-.gallery{
+h1, h2, h3, h4{
+    font-family: 'monsterrat';
+}
+
+.gallery-width{
     margin: 5px;
     border: 1px solid #777;
     float: left; 
-    width: 720px;
+    width: auto;
+    height: auto;
+}
+.gallery-high{
+    margin: 5px;
+    border: 1px solid #777;
+    float: left; 
+    width:auto;
     height: auto;
 }
 img {
