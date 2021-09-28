@@ -1,5 +1,7 @@
 :root {
     --blue: #000033;
+    --grey: #707070;
+    --white: #FFFFFF;
 }
 
 html, body {
@@ -9,7 +11,7 @@ html, body {
 
 body {
     background-color: var(--blue);
-    color: #FFFFFF;
+    color: var(--white);
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -20,10 +22,11 @@ h1, h2, h3 {
 }
 
 nav {
-    background-color: #FFFFFF;
-    color: #000000;
-    padding: 1rem 0;
+    background-color: var(--white);
+    color: var(--grey);
+    padding: 20px 0;
     width: 100%;
+    text-align: center;
 }
 
 .nav-title {
@@ -34,13 +37,13 @@ nav {
 
 .nav-list {
     list-style-type: none;
-    margin: 1rem 0 0 0;
+    margin: 10px 0 0 0;
     padding: 0;
 }
 
 .nav-item {
     display: inline-block;
-    margin-right: 1rem;
+    margin-right: 25px;
 }
 
 .nav-item:last-child {
@@ -48,7 +51,7 @@ nav {
 }
 
 .nav-item a {
-    color: #000000;
+    color: var(--grey);
     text-decoration: none;
 }
 
