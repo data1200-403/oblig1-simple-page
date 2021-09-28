@@ -1,32 +1,31 @@
 
 
-
+@font-face {
+    font-family: 'montserrat', sans-serif;
+    src: url();
+}
 body{
- font-family: 'monsterrat';
+ font-family: 'montserrat';
+ color:white;
  background-color:#000033;
+ 
 }
 h1, h2, h3, h4{
     font-family: 'monsterrat';
 }
+.gallery{
+    margin: 5px;
+    border: 1px solid #777;
+    float: left; 
+    width: 10%;
+    height: 10%;
+}
 
-.gallery-width{
-    margin: 5px;
-    border: 1px solid #777;
-    float: left; 
-    width: auto;
-    height: auto;
-}
-.gallery-high{
-    margin: 5px;
-    border: 1px solid #777;
-    float: left; 
-    width:auto;
-    height: auto;
-}
 img {
     max-width: 100%;
     height: auto;
     object-fit: contain;
     margin: auto;
     display: block;
-}
+}  
+
