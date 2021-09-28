@@ -83,7 +83,7 @@ section.blue {
 }
 
 section.boat {
-    background-image: url("/CVver2/img/Willie_D_Porter2.jpg");
+    background-image: url("./CVver2/img/Willie_D_Porter2.jpg");
     background-repeat: no-repeat;
     background-position: center right;
     background-size: contain;
