@@ -72,23 +72,29 @@ nav {
     border-bottom:  2px solid var(--blue);
 }
 
-section {
+main.blue {
+    background-color: var(--blue);
+    color: var(--white);
     padding: 20px 0;
     height: calc(100vh - 100px);
 }
 
-section.blue {
-    background-color: var(--blue);
-    color: var(--white);
+.home-container {
+    max-width: 980px;
+    margin: 0 auto;
 }
 
-section.boat {
-    background-image: url("../CVver2/img/Willie_D_Porter2.jpg");
-    background-repeat: no-repeat;
-    background-position: center right;
-    background-size: contain;
+.home-quote {
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+    margin: 50px 0;
 }
 
-blockquote {
-    margin: 0;
+img.float-right {
+    float: right;
+}
+
+.home-image {
+    border-radius: 0;
 }
