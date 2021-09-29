@@ -16,20 +16,27 @@
 <!-- test only -->
 <style>
     #image1 {
-        width: 250px;
+        width: 300px;
         height: auto;
         display: block;
         margin-left: auto;
         margin-right: auto;
         padding: 10px;
     }
-    h1,h2{
+    h1,h2,h3{
         text-align: center;
+        line-height: 1.6;
     }
     p{
         text-align: center;
     }
-    
+    figcaption{
+        text-align: center;
+    }
+    main {
+        background-color: var(--blue);
+        color: var(--white);
+    }
 </style>
 
 <body>
@@ -38,13 +45,13 @@
             <h1 class="nav-title">Porter Johnston</h1>
             <ul class="nav-list">
                 <li class="nav-item">
-                    <a href="../index.html">Home</a>
+                    <a href="#">Home</a>
                 </li>
                 <li class="nav-item">
                     <a href="#">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="../portfolioTest/portfolioTest.html">Portfolio</a>
+                    <a href="#">Portfolio</a>
                 </li>
                 <li class="nav-item">
                     <a href="#">Resume</a>
@@ -53,15 +60,29 @@
         </div>
     </nav>
 
-    <main class="blue">
-        <div class="home-container">
-                <h1> Projects </h1>
-                <h2> Photography </h2>
+    <main>
+        <h1> Projects </h1>
+        <h2> Photography </h2>
+        <h3> title of picture here </h3>
             <figure>
-                <h3> title of picture here </h3>
-                <img title="picture title" id="image1" src="../img/NatureWeb72ppi/72ppi-2917.jpg" alt="Photo of flower">
-                <figcaption> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan in lacus ut pharetra. Nullam eu nulla ut nibh hendrerit condimentum ut quis ante. Suspendisse odio ante, semper sed augue sed, elementum laoreet arcu. </figcaption>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan in lacus ut pharetra. Nullam eu nulla ut nibh hendrerit condimentum ut quis ante. Suspendisse odio ante, semper sed augue sed, elementum laoreet arcu.</p>
+                <img title="picture title" id="image1" src="../img/NatureWeb72ppi/72ppi-2917.jpg" alt="Flower">
+                <figcaption> Fig.1 - Flower </figcaption>
             </figure>
-        </div>
+        <h2> Cosplay </h2>
+        <h3> Gangut </h3>
+        <figure>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan in lacus ut pharetra. Nullam eu nulla ut nibh hendrerit condimentum ut quis ante. Suspendisse odio ante, semper sed augue sed, elementum laoreet arcu.</p>
+            <img title="picture title" id="image1" src="../img/NatureWeb72ppi/72ppi-2917.jpg" alt="alt text here">
+            <figcaption> Fig.1 - Flower </figcaption>
+        </figure>
+        <h2> Java Progam </h2>
+        <h3> Program for X </h3>
+        <figure>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan in lacus ut pharetra. Nullam eu nulla ut nibh hendrerit condimentum ut quis ante. Suspendisse odio ante, semper sed augue sed, elementum laoreet arcu.</p>
+            <img title="picture title" id="image1" src="../img/NatureWeb72ppi/72ppi-2871.jpg" alt="alt text here">
+            <figcaption> Fig.1 - Flower </figcaption>
+        </figure>
     </main>
+
 </html>
