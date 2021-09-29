@@ -14,16 +14,12 @@ h1, h2, h3, h4{
     font-family: 'monsterrat', sans-serif;
     margin-left: auto;
     margin-right:auto;
+    color: white;
 }
-.gallery{
-    margin: 5px;
-    border: 1px solid #777;
-    margin-left: auto;
-    margin-right: auto; 
-    width: 40%;
-    height: 40%;
+h1{
+    font-size: 6rem;
+    
 }
-
 img {
     max-width: 100%;
     height: auto;
@@ -31,4 +27,21 @@ img {
     margin: auto;
     display: block;
 }  
+
+.gallery{
+    margin: 5px;
+    border: 3px solid white;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 30%;
+    height: 30%;
+    
+
+}
+.description{
+    text-align: auto; 
+    color:  white; 
+    font-size: 18px;
+    padding: 10px; 
+}
 
