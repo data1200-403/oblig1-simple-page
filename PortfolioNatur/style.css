@@ -1,13 +1,11 @@
 
 
-@font-face {
-    font-family: 'montserrat', sans-serif;
-    src: url();
-}
+
 body{
- font-family: 'montserrat';
+ font-family: 'montserrat', sans-serif;
  color:white;
  background-color:#000033;
+ margin: 10px, 10px;
  
 }
 h1, h2, h3, h4{
@@ -43,5 +41,15 @@ img {
     color:  white; 
     font-size: 18px;
     padding: 10px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.introduction-h1{
+    text-align: auto;
+    font-size: 18px;
+    color: white;
+    margin-top:0px; 
+    margin-bottom: 10px;
+
+}
