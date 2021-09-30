@@ -23,7 +23,7 @@
         margin-right: auto;
         padding: 10px;
     }
-    h1,h2,h3{
+    h2,h3,h4{
         text-align: center;
         line-height: 1.6;
     }
@@ -33,12 +33,7 @@
     figcaption{
         text-align: center;
     }
-    main {
-        background-color: var(--blue);
-        color: var(--white);
-    }
 </style>
-
 <body>
     <nav>
         <div class="nav-container">
@@ -59,30 +54,36 @@
             </ul>
         </div>
     </nav>
-
     <main>
-        <h1> Projects </h1>
-        <h2> Photography </h2>
-        <h3> title of picture here </h3>
+        <section class="blue">
+            <h2> Projects </h2>
+            <h3> Photography </h3>
+            <h4> title of picture here </h4>
+                <figure>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan in lacus ut pharetra. Nullam eu nulla ut nibh hendrerit condimentum ut quis ante. Suspendisse odio ante, semper sed augue sed, elementum laoreet arcu.</p>
+                    <img title="picture title" id="image1" src="../img/NatureWeb72ppi/72ppi-2917.jpg" alt="Flower">
+                    <figcaption> Fig.1 - Flower </figcaption>
+                </figure>
+        </section>
+
+        <section>
+            <h3> Cosplay </h3>
+            <h4> Gangut </h4>
             <figure>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan in lacus ut pharetra. Nullam eu nulla ut nibh hendrerit condimentum ut quis ante. Suspendisse odio ante, semper sed augue sed, elementum laoreet arcu.</p>
-                <img title="picture title" id="image1" src="../img/NatureWeb72ppi/72ppi-2917.jpg" alt="Flower">
+                <img title="picture title" id="image1" src="../img/NatureWeb72ppi/72ppi-2917.jpg" alt="alt text here">
                 <figcaption> Fig.1 - Flower </figcaption>
             </figure>
-        <h2> Cosplay </h2>
-        <h3> Gangut </h3>
-        <figure>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan in lacus ut pharetra. Nullam eu nulla ut nibh hendrerit condimentum ut quis ante. Suspendisse odio ante, semper sed augue sed, elementum laoreet arcu.</p>
-            <img title="picture title" id="image1" src="../img/NatureWeb72ppi/72ppi-2917.jpg" alt="alt text here">
-            <figcaption> Fig.1 - Flower </figcaption>
-        </figure>
-        <h2> Java Progam </h2>
-        <h3> Program for X </h3>
-        <figure>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan in lacus ut pharetra. Nullam eu nulla ut nibh hendrerit condimentum ut quis ante. Suspendisse odio ante, semper sed augue sed, elementum laoreet arcu.</p>
-            <img title="picture title" id="image1" src="../img/NatureWeb72ppi/72ppi-2871.jpg" alt="alt text here">
-            <figcaption> Fig.1 - Flower </figcaption>
-        </figure>
-    </main>
+        </section>
 
+        <section class="blue">
+            <h3> Java Progam </h3>
+            <h4> Program for X </h4>
+            <figure>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan in lacus ut pharetra. Nullam eu nulla ut nibh hendrerit condimentum ut quis ante. Suspendisse odio ante, semper sed augue sed, elementum laoreet arcu.</p>
+                <img title="picture title" id="image1" src="../img/NatureWeb72ppi/72ppi-2871.jpg" alt="alt text here">
+                <figcaption> Fig.1 - Flower </figcaption>
+            </figure>
+        </section>
+    </main>
 </html>
