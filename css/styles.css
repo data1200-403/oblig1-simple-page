@@ -4,16 +4,13 @@
     --white: #FFFFFF;
     --light-grey: #e4e4e4;
 }
-
 * {
     box-sizing: border-box;
 }
-
 html, body {
     margin: 0;
     padding: 0;
 }
-
 body {
     background-color: var(--light-grey);
     color: var(--blue);
@@ -21,11 +18,9 @@ body {
     font-size: 18px;
     font-weight: 400;
 }
-
 h1, h2, h3 {
     font-weight: 600;
 }
-
 nav {
     background-color: var(--light-grey);
     color: var(--blue);
@@ -36,76 +31,62 @@ nav {
     height: 100px;
     padding: 10px;
 }
-
 .nav-container {
     margin: 0 auto;
     max-width: 980px;
-    
 }
-
 .nav-title {
     margin: 0;
     padding: 0;
     font-size: 2.3rem;
 }
-
 .nav-list {
     list-style-type: none;
     margin: 10px 0 0 0;
     padding: 0;
 }
-
 .nav-item {
     display: inline-block;
     margin-right: 25px;
 }
-
 .nav-item:last-child {
     margin-right: 0;
 }
-
 .nav-item a {
     color: var(--blue);
     text-decoration: none;
 }
-
 .nav-item a:hover {
-    border-bottom:  2px solid var(--blue);
+    border-bottom: 2px solid var(--blue);
 }
-
 section {
     padding: 20px 0;
-    height: calc(100vh - 100px);
+    min-height: calc(100vh - 100px);
 }
-
 section.blue {
     background-color: var(--blue);
     color: var(--white);
 }
-
 .home-container {
     max-width: 980px;
     margin: 0 auto;
-
-}.home-container > p {
+}
+.home-container > p {
     padding: 15px;
 }
-
-
 .home-quote {
     text-align: center;
     font-size: 2rem;
     font-style: italic;
     margin: 50px 0;
 }
-
 img.float-right {
     float: right;
 }
 img.float-left {
     float: left;
 }
-
 .home-image {
     border-radius: 0;
+    padding: 10px;
 }
