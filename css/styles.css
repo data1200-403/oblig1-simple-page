@@ -63,7 +63,7 @@ section {
     padding: 20px 0;
     min-height: calc(100vh - 100px);
 }
-section.blue {
+.bg-blue {
     background-color: var(--blue);
     color: var(--white);
 }

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Porter Johnston">
     <meta name="description" content="Portfolio of Porter Johnston">
-    <title>Porter Johnston - Home</title>
+    <title>Porter Johnston - About</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
@@ -18,45 +18,61 @@
             <h1 class="nav-title">Porter Johnston</h1>
             <ul class="nav-list">
                 <li class="nav-item">
-                    <a href="https://data1200-403.github.io/oblig1-simple-page/index.html">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://data1200-403.github.io/oblig1-simple-page/about.html">About</a>
+                    <a href="about.html">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://data1200-403.github.io/oblig1-simple-page/Portfolio.html">Portfolio</a>
+                    <a href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://data1200-403.github.io/oblig1-simple-page/cv.html">Carrier Vessel</a>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="cv.html">Carrier Vessel</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <main>
-        <section class="blue">
+        <section class="bg-blue">
             <div class="home-container">
-                <blockquote class="home-quote" cite="https://www.cs.cmu.edu/~fgandon/miscellaneous/murphy/">"No battle plan ever survives first contact with the enemy"</blockquote>
+                <blockquote class="home-quote" cite="https://www.cs.cmu.edu/~fgandon/miscellaneous/murphy/">"No battle
+                    plan ever survives first contact with the enemy"</blockquote>
                 <h2>The navigation</h2>
                 <p>
-                    For the navigation bar stickied to the top of each page, we used the appropriately named <code>nav</code> element.
-                    According to <cite><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav">MDN Web Docs</a></cite>:
-                    "The semantics of the <code>nav</code> element is that of providing links." These links are provided in an unordered
+                    For the navigation bar stickied to the top of each page, we used the appropriately named
+                    <code>nav</code> element.
+                    According to <cite><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav">MDN Web
+                            Docs</a></cite>:
+                    "The semantics of the <code>nav</code> element is that of providing links." These links are provided
+                    in an unordered
                     list which allowed easy styling for the presentation layer.
                 </p>
                 <p>
-                    For each page we have only used one <code>h1</code> element, and it contains the name of our persona. According to
-                    <cite><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements">MDN Web Docs</a></cite>:
-                    "It should concisely describe the overall purpose of the content." This, together with a little research into other
-                    personal websites, had us land on the decision that this is what makes sense in this perticular instance. Each page
-                    contains information with the purpose of telling the visitor about the persona, therefor it only makes sense for the
-                    top heading to be the name much like a biography. It being located in the navbar serves a couple of purposes. For
-                    one it puts it at the top of the page and also makes the navigation itself function a bit like a table of contents.
+                    For each page we have only used one <code>h1</code> element, and it contains the name of our
+                    persona. According to
+                    <cite><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements">MDN Web
+                            Docs</a></cite>:
+                    "It should concisely describe the overall purpose of the content." This, together with a little
+                    research into other
+                    personal websites, had us land on the decision that this is what makes sense in this perticular
+                    instance. Each page
+                    contains information with the purpose of telling the visitor about the persona, therefor it only
+                    makes sense for the
+                    top heading to be the name much like a biography. It being located in the navbar serves a couple of
+                    purposes. For
+                    one it puts it at the top of the page and also makes the navigation itself function a bit like a
+                    table of contents.
                 </p>
                 <h2>The homepage</h2>
                 <p>
-                    The home page, as well as this page, uses <code>section</code> elements spanning the full viewheight. To account for
-                    the sticky navigation bar, which has a fixed height, we subtract that height to create the desired effect
+                    The home page, as well as this page, uses <code>section</code> elements spanning the full
+                    viewheight. To account for
+                    the sticky navigation bar, which has a fixed height, we subtract that height to create the desired
+                    effect
                     (<code>calc(100vh - 100px)</code>).
                 </p>
             </div>
@@ -65,62 +81,102 @@
         <section>
             <div class="home-container">
                 <h2>Semantics</h2>
-                    <h3>Preparation</h3>
-                        <p>
-                        <img src="https://pbs.twimg.com/media/BwZ_R9XIEAEgckr.png" alt="99 little bugs in the code, 99 little bugs. You take one down, patch it around...127 little bugs in the code" title="Developer.exe has stopped wörking" height="420" class="float-right home-image">
-                        The CV page was probably the buggiest part to develop, mostly because I couldn't figure out flexbox. Didn't even manage to fit in an actual CV. To be honest, the idea of taking the filler content seriously went out the window about 20 seconds after the Curriculum Vitae/Cruiser Voler thing clicked in my head. Both are valid acronyms for CV, just in different context. One is your resume the other is short for Aicraft Carrier.
-                        </p>
-                    <h3>Willie D</h3>
-                        <p>Deciding that the filler text itself probably isn't that important, I deccided it would be fun to tell the legend of Willie D. This page really is dedicated to DD-579 USS William D Porter's story, and debunking a few myths about her in the form of a Curriculum Vitae while playing satire in the references (to the legend itself, of which the third is not confirmed true).</p>
+                <h3>Preparation</h3>
+                <p>
+                    <img src="https://pbs.twimg.com/media/BwZ_R9XIEAEgckr.png"
+                        alt="99 little bugs in the code, 99 little bugs. You take one down, patch it around...127 little bugs in the code"
+                        title="Developer.exe has stopped wörking" height="420" class="float-right home-image">
+                    The CV page was probably the buggiest part to develop, mostly because I couldn't figure out flexbox.
+                    Didn't even manage to fit in an actual CV. To be honest, the idea of taking the filler content
+                    seriously went out the window about 20 seconds after the Curriculum Vitae/Cruiser Voler thing
+                    clicked in my head. Both are valid acronyms for CV, just in different context. One is your resume
+                    the other is short for Aicraft Carrier.
+                </p>
+                <h3>Willie D</h3>
+                <p>Deciding that the filler text itself probably isn't that important, I deccided it would be fun to
+                    tell the legend of Willie D. This page really is dedicated to DD-579 USS William D Porter's story,
+                    and debunking a few myths about her in the form of a Curriculum Vitae while playing satire in the
+                    references (to the legend itself, of which the third is not confirmed true).</p>
 
-                    <h3 class="right-align">Sidebar</h3>
-                        <p>
-                        <img src="img/Screenshot_CV_sidebar.png" alt="Screenshot of the CV sidebar" title="Sidebar from the CV page" height="350" class="float-left home-image">
-                        The sidebar starts off with Header level 2s because the top nav bar has the title as H1. Within this, the skill and language "progress bars" have H3s for the titles, while the UL for hobbies above is just a simple Unordered List. In the references part its a nested quote with text in a paragraph each under H3 headings to maintain the hierarchy.
-                        </p>
-                    <h3 class="right-align">Making progress</h3>
-                        <p>
-                            The progress bars are coded in HTML/CSS by creating boxes and setting backgrounds for them (And a bit of rounding for the edges so they don't look as...hard). This allows us to change settings by simply copy/pastaing code and changing fill width in CSS instead of making new images in Photoshop or something.
-                        </p>
+                <h3 class="right-align">Sidebar</h3>
+                <p>
+                    <img src="img/Screenshot_CV_sidebar.png" alt="Screenshot of the CV sidebar"
+                        title="Sidebar from the CV page" height="350" class="float-left home-image">
+                    The sidebar starts off with Header level 2s because the top nav bar has the title as H1. Within
+                    this, the skill and language "progress bars" have H3s for the titles, while the UL for hobbies above
+                    is just a simple Unordered List. In the references part its a nested quote with text in a paragraph
+                    each under H3 headings to maintain the hierarchy.
+                </p>
+                <h3 class="right-align">Making progress</h3>
+                <p>
+                    The progress bars are coded in HTML/CSS by creating boxes and setting backgrounds for them (And a
+                    bit of rounding for the edges so they don't look as...hard). This allows us to change settings by
+                    simply copy/pastaing code and changing fill width in CSS instead of making new images in Photoshop
+                    or something.
+                </p>
             </div>
         </section>
 
-        <section class="blue">
+        <section class="bg-blue">
             <div class="home-container">
-                <blockquote class="home-quote" cite="https://www.cs.cmu.edu/~fgandon/miscellaneous/murphy/">"Incoming fire has the right of way!"</blockquote>
-                <img src="img/SKK.jpg" alt="Image of IJN Aircraft Carrier Shoukaku shortly after launch 1941" title="IJN Shoukaku shortly after launch 1941" width="960">
+                <blockquote class="home-quote" cite="https://www.cs.cmu.edu/~fgandon/miscellaneous/murphy/">"Incoming
+                    fire has the right of way!"</blockquote>
+                <img src="img/SKK.jpg" alt="Image of IJN Aircraft Carrier Shoukaku shortly after launch 1941"
+                    title="IJN Shoukaku shortly after launch 1941" width="960">
                 <h2>Main section</h2>
                 <p>
-                The main content is very basic and straight forwards. The unordered list is formatted through CSS to not have any bullet points as it looks cleaner this way. This is a concious choice to maintain the look of the page, while also making sure the tag is clearly indicated as a list to a screenreader.
+                    The main content is very basic and straight forwards. The unordered list is formatted through CSS to
+                    not have any bullet points as it looks cleaner this way. This is a concious choice to maintain the
+                    look of the page, while also making sure the tag is clearly indicated as a list to a screenreader.
                 </p>
-                <p>The paragraphs themselves are formatted through a separate CSS document containing some duplications to the "main" CSS file, but considering how buggy this entire ordeal was, we decided to not risk messing with something that already works just fine. <q>If it ain't broke, don't fix it!</q>
+                <p>The paragraphs themselves are formatted through a separate CSS document containing some duplications
+                    to the "main" CSS file, but considering how buggy this entire ordeal was, we decided to not risk
+                    messing with something that already works just fine. <q>If it ain't broke, don't fix it!</q>
                 </p>
             </div>
         </section>
 
         <section>
             <div class="home-container">
-                <blockquote class="home-quote" cite="http://www.columbia.edu/~sss31/rainbow/murphy.combat.html#:~:text=Anything%20you%20do%20can%20get,be%20able%20to%20get%20out.">"Anything you do can get you shot, including nothing."</blockquote>
-                <img src="img/Yamato_Construction.jpg" alt="IJN Battleship Yamato under construction" width="960" title="IJN Yamato under construction" class="float-right home-image">
+                <blockquote class="home-quote"
+                    cite="http://www.columbia.edu/~sss31/rainbow/murphy.combat.html#:~:text=Anything%20you%20do%20can%20get,be%20able%20to%20get%20out.">
+                    "Anything you do can get you shot, including nothing."</blockquote>
+                <img src="img/Yamato_Construction.jpg" alt="IJN Battleship Yamato under construction" width="960"
+                    title="IJN Yamato under construction" class="float-right home-image">
                 <h2>Sidebar</h2>
                 <p>
-                    The reason we concluded that the sidebar needed to use headers in the sidebar for skills and languages over normal paragraph or quotes is that they are "headers" for the "progress bars" that themselves describe the capabilities of our little warship. Having them as coded progress bars over images means that its easier to alter, duplicate or replace them compared to having them as images. Using code is also "lighter" on the loading rather than having to use images which then need to be loaded using bandwidth.
+                    The reason we concluded that the sidebar needed to use headers in the sidebar for skills and
+                    languages over normal paragraph or quotes is that they are "headers" for the "progress bars" that
+                    themselves describe the capabilities of our little warship. Having them as coded progress bars over
+                    images means that its easier to alter, duplicate or replace them compared to having them as images.
+                    Using code is also "lighter" on the loading rather than having to use images which then need to be
+                    loaded using bandwidth.
                 </p>
                 <p>
-                    Using quotes for the references as a little bit of trivia. All three have historical relevance, though only the third one could possibly be a real one stemming from the urban legend of USS William D Porter. This is mostly to show the use of the quote HTML element.
+                    Using quotes for the references as a little bit of trivia. All three have historical relevance,
+                    though only the third one could possibly be a real one stemming from the urban legend of USS William
+                    D Porter. This is mostly to show the use of the quote HTML element.
                 </p>
             </div>
         </section>
 
-        <section class="blue">
+        <section class="bg-blue">
             <div class="home-container">
-                <blockquote class="home-quote" cite="https://www.cs.cmu.edu/~fgandon/miscellaneous/murphy/">"The problem with taking the easy way out is that the enemy has already mined it ."</blockquote>
-                <img src="img/Hiryuu_bombing.jpg" alt="Image of IJN Aircraft Carrier Hiryuu dodging bombs" title="IJN Hiryuu attempting to dodge bombs" width="960">
+                <blockquote class="home-quote" cite="https://www.cs.cmu.edu/~fgandon/miscellaneous/murphy/">"The problem
+                    with taking the easy way out is that the enemy has already mined it ."</blockquote>
+                <img src="img/Hiryuu_bombing.jpg" alt="Image of IJN Aircraft Carrier Hiryuu dodging bombs"
+                    title="IJN Hiryuu attempting to dodge bombs" width="960">
                 <h2>Explanations</h2>
                 <p>
-                The use of paragraphs in the main CV filler is the best option because the text there is structured as paragraphs, with correct hierarchy of headers. Each subsection has the same level of importance in the setup, thus the choice of H2 headers for the sections "about me", "education" and "work experience"
+                    The use of paragraphs in the main CV filler is the best option because the text there is structured
+                    as paragraphs, with correct hierarchy of headers. Each subsection has the same level of importance
+                    in the setup, thus the choice of H2 headers for the sections "about me", "education" and "work
+                    experience"
                 </p>
-                <p>The choice of an unordered list for the education is because its written as bullet points. It is neither written with the intention of flow or as a "readable paragraph". This an unordered list makes sense semantically, even if the choice was made to not display bullet points for this section or indent the text in any way.
+                <p>The choice of an unordered list for the education is because its written as bullet points. It is
+                    neither written with the intention of flow or as a "readable paragraph". This an unordered list
+                    makes sense semantically, even if the choice was made to not display bullet points for this section
+                    or indent the text in any way.
                 </p>
             </div>
         </section>
@@ -129,7 +185,7 @@
             <div class="home-container">
                 <h2>Portfolio</h2>
                 <p> For the portfolio page, I wanted to create a simple page for showcasing our projects.
-                    I figured out that it would be best to use the 
+                    I figured out that it would be best to use the
                     &lt;figure&gt; tag that the images of the projects are specified as self-contained content.
                     This makes the content more semantically organized. </p>
 
@@ -138,28 +194,34 @@
                     All figures have a &lt;figcaption&gt; tag to give the image short a caption. </p>
 
                 <p> All our figure elements are nested inside &lt;section&gt; tags so each project splits into different
-                    sections. All our section elements are again nested inside the &lt;main&gt; tag because the projects are the main content.</p>
-                
+                    sections. All our section elements are again nested inside the &lt;main&gt; tag because the projects
+                    are the main content.</p>
+
                 <p> I chose to use these different tags and attributes because they provide additional
                     information about the code. This makes the code more understandable and also instructs
                     browsers on how to treat this information. </p>
             </div>
         </section>
-        <section class="blue">
+        <section class="bg-blue">
             <div class="home-container">
                 <h2>Gallery page</h2>
-                <p>The gallery page is quite simple. I choose to have the pictures centered so that the images 
-                    <br>are the main focus. I choose to use the semantic tag &lt;figure&gt;, to indicate that there 
+                <p>The gallery page is quite simple. I choose to have the pictures centered so that the images
+                    <br>are the main focus. I choose to use the semantic tag &lt;figure&gt;, to indicate that there
                     is a picture or a “figure”. There were also “alt” and “tittel” in the &lt;img&gt; tags to use for s
-                    earch engine optimization, where put things like location, what is in the picture etc in &lt;alt&gt;.
+                    earch engine optimization, where put things like location, what is in the picture etc in
+                    &lt;alt&gt;.
                 </p>
-                <p>And a proper title like “Melderskin, Rosendalen, Norway” which is more of a proper title. In the &lt;figcaption&gt; 
-                    I put more describable things, like colors, time of day, type of photography, etc. I also &lt;p&gt; to write a more 
-                    general description, so that I could add more. And that &lt; p &gt; could be more of a “brief” description and defined with filler, 
+                <p>And a proper title like “Melderskin, Rosendalen, Norway” which is more of a proper title. In the
+                    &lt;figcaption&gt;
+                    I put more describable things, like colors, time of day, type of photography, etc. I also &lt;p&gt;
+                    to write a more
+                    general description, so that I could add more. And that &lt; p &gt; could be more of a “brief”
+                    description and defined with filler,
                     and defined it with a “gallery description” tag. </p>
-                    
-                    <p>The filler is just lorem ipsum. The size of the header is defined by the 
-                    class so that the right header tag is used. The images are in different classes based on either if they are horizontally (“gallery-w”) 
+
+                <p>The filler is just lorem ipsum. The size of the header is defined by the
+                    class so that the right header tag is used. The images are in different classes based on either if
+                    they are horizontally (“gallery-w”)
                     or vertically (“gallery-h”).</p>
             </div>
         </section>
