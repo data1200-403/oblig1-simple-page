@@ -37,16 +37,27 @@
         <section class="blue">
             <div class="home-container">
                 <blockquote class="home-quote" cite="https://www.cs.cmu.edu/~fgandon/miscellaneous/murphy/">"No battle plan ever survives first contact with the enemy"</blockquote>
+                <h2>The navigation</h2>
                 <p>
-                    <img src="https://i.pinimg.com/originals/af/85/dd/af85dd71583280473e88f2f0ad0c7191.jpg" alt="Yuudachi Kai Ni fanart" height="250px" title="Yuudachi Kai Ni fanart"class="float-right home-image">Yuudachi poi zuikaku turkey yuudachi poi poi Iowa ga most volleyball soromon no akumu, miseteageru!
+                    For the navigation bar stickied to the top of each page, we used the appropriately named <code>nav</code> element.
+                    According to <cite><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav">MDN Web Docs</a></cite>:
+                    "The semantics of the <code>nav</code> element is that of providing links." These links are provided in an unordered
+                    list which allowed easy styling for the presentation layer.
                 </p>
-                <p>Graf Z needs her coffee while the damn drunkard Jun'you took all my whiskey the bastard. I'll make sure to have the turkey bomb the living snot out of...Hold on Zui I didn't no wait put those bombers awaaaaaaaaayyyyyyy.....
-                    The admiral could not be found in the aftermath of this...ordnance release incident.....
-                </p>
-
                 <p>
-                    <img src="https://cdn.donmai.us/original/83/98/__graf_zeppelin_kantai_collection_drawn_by_melone_melonenbrot__8398ecb514479eb1aad8d21282e1adc4.png" alt="Kancolle Graf Zeppelin's morning mood with coffee" title="Morning coffee with Graf Zeppelin" width="250px" class="float-left home-image">
-                    We all know that Europeans, especially those from the Nordic countries can't get along with the morning without a good cup of coffee. I'm sure Graf Zeppelin here would agree with you in that regard.
+                    For each page we have only used one <code>h1</code> element, and it contains the name of our persona. According to
+                    <cite><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements">MDN Web Docs</a></cite>:
+                    "It should concisely describe the overall purpose of the content." This, together with a little research into other
+                    personal websites, had us land on the decision that this is what makes sense in this perticular instance. Each page
+                    contains information with the purpose of telling the visitor about the persona, therefor it only makes sense for the
+                    top heading to be the name much like a biography. It being located in the navbar serves a couple of purposes. For
+                    one it puts it at the top of the page and also makes the navigation itself function a bit like a table of contents.
+                </p>
+                <h2>The homepage</h2>
+                <p>
+                    The home page, as well as this page, uses <code>section</code> elements spanning the full viewheight. To account for
+                    the sticky navigation bar, which has a fixed height, we subtract that height to create the desired effect
+                    (<code>calc(100vh - 100px)</code>).
                 </p>
             </div>
         </section>
