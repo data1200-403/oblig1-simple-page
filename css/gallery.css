@@ -1,0 +1,52 @@
+h1, h2, h3, h4{
+    font-weight: 600;
+    text-align: center;
+}
+.gallery-h2{
+    font-size: 2.9rem;
+    color: white;
+}
+.gallery-h3 {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin: auto;
+    display: block;
+}
+.gallery-w{
+    margin: 5px;
+    border: 3px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+}
+.gallery-h{
+    margin: 5px;
+    border: 3px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 20%;
+}
+.description-gal{
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.introduction-h1{
+    text-align: auto;
+    font-size: 18px;
+    color: white;
+    margin-top:0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
