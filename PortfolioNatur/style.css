@@ -43,7 +43,6 @@ img {
     margin-right: auto; 
     width: 40%;
     height: 40%;
-    
 
 }
 
@@ -70,5 +69,10 @@ img {
     color: white;
     margin-top:0px; 
     margin-bottom: 10px;
+}
 
+figcaption{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
 }
