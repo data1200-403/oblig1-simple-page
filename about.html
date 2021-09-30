@@ -57,7 +57,7 @@
                     <h3>Preparation</h3>
                         <p>
                         <img src="https://pbs.twimg.com/media/BwZ_R9XIEAEgckr.png" alt="99 little bugs in the code, 99 little bugs. You take one down, patch it around...127 little bugs in the code" title="Developer.exe has stopped wörking" height="420px" class="float-right home-image">
-                            The CV page was probably the buggiest part to develop, mostly because I couldn't figure out flexbox. Didn't even manage to fit in an actual CV. To be honest, the idea of taking the filler content seriously went out the window about 20 seconds after the Curriculum Vitae/Cruiser Voler thing clicked in my head. Both are valid acronyms for CV, just in different context. One is your resume the other is short for Aicraft Carrier.
+                        The CV page was probably the buggiest part to develop, mostly because I couldn't figure out flexbox. Didn't even manage to fit in an actual CV. To be honest, the idea of taking the filler content seriously went out the window about 20 seconds after the Curriculum Vitae/Cruiser Voler thing clicked in my head. Both are valid acronyms for CV, just in different context. One is your resume the other is short for Aicraft Carrier.
                         </p>
                     <h3>Willie D</h3>
                         <p>Deciding that the filler text itself probably isn't that important, I deccided it would be fun to tell the legend of Willie D. This page really is dedicated to DD-579 USS William D Porter's story, and debunking a few myths about her in the form of a Curriculum Vitae while playing satire in the references (to the legend itself, of which the third is not confirmed true).</p>
@@ -82,6 +82,31 @@
                 The main content is very basic and straight forwards. The unordered list is formatted through CSS to not have any bullet points as it looks cleaner this way. This is a concious choice to maintain the look of the page, while also making sure the tag is clearly indicated as a list to a screenreader.
                 </p>
                 <p>The paragraphs themselves are formatted through a separate CSS document containing some duplications to the "main" CSS file, but considering how buggy this entire ordeal was, we decided to not risk messing with something that already works just fine. <q>If it ain't broke, don't fix it!</q>
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <div class="home-container">
+                <blockquote class="home-quote" cite="http://www.columbia.edu/~sss31/rainbow/murphy.combat.html#:~:text=Anything%20you%20do%20can%20get,be%20able%20to%20get%20out.">"Anything you do can get you shot, including nothing."</blockquote>
+                <img src="img/Yamato_Construction.jpg" alt="IJN Battleship Yamato under construction" width="100%" title="IJN Yamato under construction"class="float-right home-image">
+                <p>
+                    The reason we concluded that the sidebar needed to use headers in the sidebar for skills and languages over normal paragraph or quotes is that they are "headers" for the "progress bars" that themselves describe the capabilities of our little warship. Having them as coded progress bars over images means that its easier to alter, duplicate or replace them compared to having them as images. Using code is also "lighter" on the loading rather than having to use images which then need to be loaded using bandwidth.
+                </p>
+                <p>
+                    Using quotes for the references as a little bit of trivia. All three have historical relevance, though only the third one could possibly be a real one stemming from the urban legend of USS William D Porter. This is mostly to show the use of the quote HTML element.
+                </p>
+            </div>
+        </section>
+
+        <section class="blue">
+            <div class="home-container">
+                <blockquote class="home-quote" cite="https://www.cs.cmu.edu/~fgandon/miscellaneous/murphy/">"The problem with taking the easy way out is that the enemy has already mined it ."</blockquote>
+                <img src="img/Hiryuu_bombing.jpg" alt="Image of IJN Aircraft Carrier Hiryuu dodging bombs" title="IJN Hiryuu attempting to dodge bombs" width="100%">
+                <p>
+                The use of paragraphs in the main CV filler is the best option because the text there is structured as paragraphs, with correct hierarchy of headers. Each subsection has the same level of importance in the setup, thus the choice of H2 headers for the sections "about me", "education" and "work experience"
+                </p>
+                <p>The choice of an unordered list for the education is because its written as bullet points. It is neither written with the intention of flow or as a "readable paragraph". This an unordered list makes sense semantically, even if the choice was made to not display bullet points for this section or indent the text in any way.</q>
                 </p>
             </div>
         </section>
