@@ -80,6 +80,10 @@ section.blue {
     font-style: italic;
     margin: 50px 0;
 }
+.right-align {
+text-align: right;
+}
+
 img.float-right {
     float: right;
 }
