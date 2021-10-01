@@ -75,11 +75,11 @@ section {
     background-color: var(--blue);
     color: var(--white);
 }
-.home-container {
+.main-container {
     max-width: 980px;
     margin: 0 auto;
 }
-.home-container > p {
+.main-container > p {
     padding: 15px;
 }
 .home-quote {
